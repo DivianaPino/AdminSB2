@@ -283,7 +283,7 @@
             <div class="card-body">
                 <div class="text-center">
                     <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
-                        src="bootstrapSB/img/undraw_posting_photo.svg" alt="">
+                        src="{{asset('img/undraw_posting_photo.svg')}}" alt="">
                 </div>
                 <p>Add some quality, svg illustrations to your project courtesy of <a target="_blank" rel="nofollow"
                         href="https://undraw.co/">unDraw</a>, a
@@ -352,7 +352,7 @@
             <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="bootstrapSB/login.html">Logout</a>
+                <a class="btn btn-primary" href="#">Logout</a>
             </div>
         </div>
     </div>

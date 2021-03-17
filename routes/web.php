@@ -21,3 +21,8 @@ Route::get('/admin', function () {
     return view('extends/index');
 });
 
+Route::get('/admin/table', function () {
+    return view('extends/table');
+});
+
+
