@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>Libreria - Dashboard</title>
 
     <!-- Custom fonts for this template-->
     <link href="{{asset('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
@@ -70,6 +70,8 @@
                     <!-- Page level custom scripts -->
                     <script src="{{asset('js/demo/chart-area-demo.js')}}"></script>
                     <script src="{{asset('js/demo/chart-pie-demo.js')}}"></script>
+
+
                     @yield('extra-js')
 
                 </div>
